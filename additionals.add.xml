@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional>
+    <inductionLoop id="hwLoop10" lane="HW_E1.1_0" pos="400" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop11" lane="HW_E1.1_1" pos="400" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop20" lane="HW_E2.1_0" pos="10" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop21" lane="HW_E2.1_1" pos="10" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop30" lane="HW_E3.1_0" pos="10" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop31" lane="HW_E3.1_1" pos="10" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop40" lane="HW_E4.1_0" pos="10" period="600" file="out.xml"/>
+    <inductionLoop id="hwLoop41" lane="HW_E4.1_1" pos="10" period="600" file="out.xml"/>
+    <inductionLoop id="rampLoop1" lane="RAMP_E1.1_0" pos="60" period="600" file="out.xml"/>
+    <inductionLoop id="rampLoop2" lane="RAMP_E2.1_0" pos="60" period="600" file="out.xml"/>
+    <inductionLoop id="rampLoop3" lane="RAMP_E3.1_0" pos="60" period="600" file="out.xml"/>
+    
+	<tlLogic id="TL_0" type="static" programID="ramp1_tl_program3" offset="0">
+        <phase duration="60" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="25"  state="r"/>
+    </tlLogic>
+    <tlLogic id="TL_1" type="static" programID="ramp2_tl_program3" offset="0">
+        <phase duration="60" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="25"  state="r"/>
+    </tlLogic>
+    <tlLogic id="TL_2" type="static" programID="ramp3_tl_program3" offset="0">
+        <phase duration="60" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="25"  state="r"/>
+    </tlLogic>
+	<tlLogic id="TL_0" type="static" programID="ramp1_tl_program2" offset="0">
+        <phase duration="60" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="25"  state="r"/>
+    </tlLogic>
+    <tlLogic id="TL_1" type="static" programID="ramp2_tl_program2" offset="0">
+        <phase duration="30" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="25"  state="r"/>
+    </tlLogic>
+    <tlLogic id="TL_2" type="static" programID="ramp3_tl_program2" offset="0">
+        <phase duration="30" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="25"  state="r"/>
+    </tlLogic>
+    <tlLogic id="TL_0" type="static" programID="ramp1_tl_program1" offset="0">
+        <phase duration="45" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="10"  state="r"/>
+    </tlLogic>
+	<tlLogic id="TL_1" type="static" programID="ramp2_tl_program1" offset="0">
+        <phase duration="45" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="10"  state="r"/>
+    </tlLogic>
+	<tlLogic id="TL_2" type="static" programID="ramp3_tl_program1" offset="0">
+        <phase duration="45" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="10"  state="r"/>
+    </tlLogic>
+</additional>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-28 21:15:07 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <additional-files value="C:\Users\user\Documents\Suli\BME_KJK_MSC\Traffic_control\sumo_hf\additional.add.xml"/>
+        <sumo-net-file value="C:\Users\user\Documents\Suli\BME_KJK_MSC\Traffic_control\sumo_hf\highway.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\user\Documents\Suli\BME_KJK_MSC\Traffic_control\sumo_hf\highway.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-33.98,15.71,846.31,56.39" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":HW_J1.1_0" function="internal">
+        <lane id=":HW_J1.1_0_0" index="0" speed="36.11" length="13.72" shape="48.62,48.12 62.34,48.39"/>
+    </edge>
+    <edge id=":HW_J1.1_1" function="internal">
+        <lane id=":HW_J1.1_1_0" index="0" speed="36.11" length="13.50" shape="48.76,51.59 62.34,51.59"/>
+        <lane id=":HW_J1.1_1_1" index="1" speed="36.11" length="13.50" shape="48.92,54.79 62.34,54.79"/>
+    </edge>
+    <edge id=":HW_J1.2_0" function="internal">
+        <lane id=":HW_J1.2_0_0" index="0" speed="36.11" length="8.00" shape="129.49,51.59 137.49,51.58"/>
+        <lane id=":HW_J1.2_0_1" index="1" speed="36.11" length="8.00" shape="129.49,54.79 137.49,54.78"/>
+    </edge>
+    <edge id=":HW_J2.1_0" function="internal">
+        <lane id=":HW_J2.1_0_0" index="0" speed="36.11" length="3.10" shape="353.25,48.21 356.35,48.30"/>
+    </edge>
+    <edge id=":HW_J2.1_1" function="internal">
+        <lane id=":HW_J2.1_1_0" index="0" speed="36.11" length="6.97" shape="349.38,51.51 356.35,51.50"/>
+        <lane id=":HW_J2.1_1_1" index="1" speed="36.11" length="6.97" shape="349.37,54.71 356.35,54.70"/>
+    </edge>
+    <edge id=":HW_J2.2_0" function="internal">
+        <lane id=":HW_J2.2_0_0" index="0" speed="36.11" length="8.00" shape="437.09,51.52 445.09,51.52"/>
+        <lane id=":HW_J2.2_0_1" index="1" speed="36.11" length="8.00" shape="437.09,54.72 445.09,54.72"/>
+    </edge>
+    <edge id=":HW_J3.1_0" function="internal">
+        <lane id=":HW_J3.1_0_0" index="0" speed="36.11" length="3.58" shape="627.14,47.41 628.13,47.79 628.83,47.99 629.56,48.07 630.62,48.08"/>
+    </edge>
+    <edge id=":HW_J3.1_1" function="internal">
+        <lane id=":HW_J3.1_1_0" index="0" speed="36.11" length="3.53" shape="627.09,51.31 630.62,51.28"/>
+        <lane id=":HW_J3.1_1_1" index="1" speed="36.11" length="3.53" shape="627.10,54.51 630.62,54.48"/>
+    </edge>
+    <edge id=":HW_J3.2_0" function="internal">
+        <lane id=":HW_J3.2_0_0" index="0" speed="36.11" length="8.00" shape="732.24,51.36 740.24,51.35"/>
+        <lane id=":HW_J3.2_0_1" index="1" speed="36.11" length="8.00" shape="732.24,54.56 740.24,54.55"/>
+    </edge>
+    <edge id=":RAMP_J1_0" function="internal">
+        <lane id=":RAMP_J1_0_0" index="0" speed="13.89" length="0.26" shape="42.35,48.06 42.43,48.07 42.48,48.08 42.54,48.08 42.62,48.08"/>
+    </edge>
+    <edge id=":RAMP_J2_0" function="internal">
+        <lane id=":RAMP_J2_0_0" index="0" speed="13.89" length="0.15" shape="340.08,47.24 340.13,47.24 340.16,47.24 340.19,47.24 340.23,47.25"/>
+    </edge>
+    <edge id=":RAMP_J3_0" function="internal">
+        <lane id=":RAMP_J3_0_0" index="0" speed="13.89" length="0.61" shape="622.39,45.66 622.57,45.66 622.70,45.67 622.82,45.71 622.99,45.77"/>
+    </edge>
+
+    <edge id="HW_E1.1" from="HW_J0" to="HW_J1.1" priority="-1" length="100.00">
+        <lane id="HW_E1.1_0" index="0" speed="36.11" length="500.00" shape="-33.98,51.59 48.76,51.59"/>
+        <lane id="HW_E1.1_1" index="1" speed="36.11" length="500.00" shape="-33.98,54.79 48.92,54.79"/>
+    </edge>
+    <edge id="HW_E1.2" from="HW_J1.1" to="HW_J1.2" priority="-1" length="100.00">
+        <lane id="HW_E1.2_0" index="0" speed="36.11" length="100.00" shape="62.34,48.39 129.49,48.39"/>
+        <lane id="HW_E1.2_1" index="1" speed="36.11" length="100.00" shape="62.34,51.59 129.49,51.59"/>
+        <lane id="HW_E1.2_2" index="2" speed="36.11" length="100.00" shape="62.34,54.79 129.49,54.79"/>
+    </edge>
+    <edge id="HW_E2.1" from="HW_J1.2" to="HW_J2.1" priority="-1" length="1000.00" shape="133.49,56.39 304.21,56.12 349.36,56.31">
+        <lane id="HW_E2.1_0" index="0" speed="36.11" length="1000.00" shape="137.49,51.58 304.22,51.32 349.38,51.51"/>
+        <lane id="HW_E2.1_1" index="1" speed="36.11" length="1000.00" shape="137.49,54.78 304.21,54.52 349.37,54.71"/>
+    </edge>
+    <edge id="HW_E2.2" from="HW_J2.1" to="HW_J2.2" priority="-1" length="100.00" shape="349.22,56.30 441.09,56.32">
+        <lane id="HW_E2.2_0" index="0" speed="36.11" length="100.00" shape="356.35,48.30 437.09,48.32"/>
+        <lane id="HW_E2.2_1" index="1" speed="36.11" length="100.00" shape="356.35,51.50 437.09,51.52"/>
+        <lane id="HW_E2.2_2" index="2" speed="36.11" length="100.00" shape="356.35,54.70 437.09,54.72"/>
+    </edge>
+    <edge id="HW_E3.1" from="HW_J2.2" to="HW_J3.1" priority="-1" length="1000.00">
+        <lane id="HW_E3.1_0" index="0" speed="36.11" length="1000.00" shape="445.09,51.52 627.09,51.31"/>
+        <lane id="HW_E3.1_1" index="1" speed="36.11" length="1000.00" shape="445.09,54.72 627.10,54.51"/>
+    </edge>
+    <edge id="HW_E3.2" from="HW_J3.1" to="HW_J3.2" priority="-1" length="100.00" shape="644.72,56.09 678.39,56.11 736.24,56.16">
+        <lane id="HW_E3.2_0" index="0" speed="36.11" length="100.00" shape="630.62,48.08 678.40,48.11 732.24,48.16"/>
+        <lane id="HW_E3.2_1" index="1" speed="36.11" length="100.00" shape="630.62,51.28 678.39,51.31 732.24,51.36"/>
+        <lane id="HW_E3.2_2" index="2" speed="36.11" length="100.00" shape="630.62,54.48 678.39,54.51 732.24,54.56"/>
+    </edge>
+    <edge id="HW_E4.1" from="HW_J3.2" to="HW_J3.3" priority="-1" length="500.00">
+        <lane id="HW_E4.1_0" index="0" speed="36.11" length="500.00" shape="740.24,51.35 846.30,51.22"/>
+        <lane id="HW_E4.1_1" index="1" speed="36.11" length="500.00" shape="740.24,54.55 846.31,54.42"/>
+    </edge>
+    <edge id="RAMP_E1.1" from="RAMP_J1.0" to="RAMP_J1" priority="-1" length="70.00" shape="-26.38,15.71 35.33,48.46 42.34,49.68">
+        <lane id="RAMP_E1.1_0" index="0" speed="13.89" length="70.00" shape="-25.63,14.30 35.86,46.93 42.35,48.06"/>
+    </edge>
+    <edge id="RAMP_E1.2" from="RAMP_J1" to="HW_J1.1" priority="-1" length="10.00" shape="42.34,49.68 49.37,49.73 78.19,56.39">
+        <lane id="RAMP_E1.2_0" index="0" speed="25.00" length="10.00" shape="42.62,48.08 48.62,48.12"/>
+    </edge>
+    <edge id="RAMP_E2.1" from="RAMP_J2.0" to="RAMP_J2" priority="-1" length="70.00" shape="268.91,19.87 330.91,48.76 340.07,48.84">
+        <lane id="RAMP_E2.1_0" index="0" speed="13.89" length="70.00" shape="269.59,18.42 331.27,47.16 340.08,47.24"/>
+    </edge>
+    <edge id="RAMP_E2.2" from="RAMP_J2" to="HW_J2.1" priority="-1" length="10.00" shape="340.07,48.84 343.94,49.23 351.83,49.72">
+        <lane id="RAMP_E2.2_0" index="0" speed="25.00" length="10.00" shape="340.23,47.25 344.07,47.63 353.25,48.21"/>
+    </edge>
+    <edge id="RAMP_E3.1" from="RAMP_J3.0" to="RAMP_J3" priority="-1" length="70.00" shape="542.86,22.49 609.11,47.32 622.40,47.26">
+        <lane id="RAMP_E3.1_0" index="0" speed="13.89" length="70.00" shape="543.42,20.99 609.40,45.72 622.39,45.66"/>
+    </edge>
+    <edge id="RAMP_E3.2" from="RAMP_J3" to="HW_J3.1" priority="-1" length="10.00">
+        <lane id="RAMP_E3.2_0" index="0" speed="25.00" length="10.00" shape="622.99,45.77 627.14,47.41"/>
+    </edge>
+    
+	<tlLogic id="TL_0" type="static" programID="ramp1_tl_program4" offset="0">
+        <phase duration="45" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="40"  state="r"/>
+    </tlLogic>
+	<tlLogic id="TL_1" type="static" programID="ramp2_tl_program4" offset="0">
+        <phase duration="45" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="40"  state="r"/>
+    </tlLogic>
+	<tlLogic id="TL_2" type="static" programID="ramp3_tl_program4" offset="0">
+        <phase duration="45" state="G"/>
+        <phase duration="5"  state="y"/>
+        <phase duration="40"  state="r"/>
+    </tlLogic>
+
+    <junction id="HW_J0" type="dead_end" x="-33.98" y="56.39" incLanes="" intLanes="" shape="-33.98,56.39 -33.98,49.99"/>
+    <junction id="HW_J1.1" type="priority" x="78.19" y="56.39" incLanes="RAMP_E1.2_0 HW_E1.1_0 HW_E1.1_1" intLanes=":HW_J1.1_0_0 :HW_J1.1_1_0 :HW_J1.1_1_1" shape="62.34,56.39 62.34,46.79 48.58,46.51 48.66,49.72 49.00,56.39" customShape="1">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="HW_J1.2" type="left_before_right" x="133.49" y="56.39" incLanes="HW_E1.2_0 HW_E1.2_1 HW_E1.2_2" intLanes=":HW_J1.2_0_0 :HW_J1.2_0_1" shape="137.49,56.38 137.48,49.98 134.45,49.16 132.52,47.62 131.28,47.03 129.49,46.79 129.49,56.39">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="HW_J2.1" type="priority" x="351.83" y="49.72" incLanes="RAMP_E2.2_0 HW_E2.1_0 HW_E2.1_1" intLanes=":HW_J2.1_0_0 :HW_J2.1_1_0 :HW_J2.1_1_1" shape="356.35,56.30 356.35,46.70 353.35,46.61 353.15,49.80 353.68,49.87 353.28,49.90 352.43,49.91 351.13,49.91 349.39,49.91 349.36,56.31">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="HW_J2.2" type="priority" x="441.09" y="56.32" incLanes="HW_E2.2_0 HW_E2.2_1 HW_E2.2_2" intLanes=":HW_J2.2_0_0 :HW_J2.2_0_1" shape="445.09,56.32 445.09,49.92 442.06,49.09 440.12,47.55 438.88,46.96 437.09,46.72 437.09,56.32">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="HW_J3.1" type="priority" x="644.72" y="56.09" incLanes="RAMP_E3.2_0 HW_E3.1_0 HW_E3.1_1" intLanes=":HW_J3.1_0_0 :HW_J3.1_1_0 :HW_J3.1_1_1" shape="630.62,56.08 630.62,46.48 629.52,46.46 629.14,46.41 628.76,46.31 628.32,46.16 627.73,45.93 626.55,48.90 627.09,49.71 627.10,56.11" customShape="1">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="HW_J3.2" type="priority" x="736.24" y="56.16" incLanes="HW_E3.2_0 HW_E3.2_1 HW_E3.2_2" intLanes=":HW_J3.2_0_0 :HW_J3.2_0_1" shape="740.25,56.15 740.24,49.75 737.21,48.93 735.27,47.39 734.03,46.80 732.24,46.56 732.24,56.16">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="HW_J3.3" type="dead_end" x="846.31" y="56.02" incLanes="HW_E4.1_0 HW_E4.1_1" intLanes="" shape="846.30,49.62 846.31,56.02"/>
+    <junction id="RAMP_J1" type="traffic_light" x="42.34" y="49.68" incLanes="RAMP_E1.1_0" intLanes=":RAMP_J1_0_0" shape="42.60,49.68 42.63,46.48 42.08,49.63 42.27,49.67 42.34,49.67 42.41,49.68">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="RAMP_J1.0" type="dead_end" x="-26.38" y="15.71" incLanes="" intLanes="" shape="-26.38,15.71 -24.88,12.88"/>
+    <junction id="RAMP_J2" type="traffic_light" x="340.07" y="48.84" incLanes="RAMP_E2.1_0" intLanes=":RAMP_J2_0_0" shape="340.07,48.84 340.39,45.66 340.24,45.64 340.16,45.64">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="RAMP_J2.0" type="dead_end" x="268.91" y="19.87" incLanes="" intLanes="" shape="268.91,19.87 270.26,16.97"/>
+    <junction id="RAMP_J3" type="traffic_light" x="622.40" y="47.26" incLanes="RAMP_E3.1_0" intLanes=":RAMP_J3_0_0" shape="622.40,47.26 623.58,44.28 623.15,44.13 623.00,44.09 622.84,44.07 622.65,44.06 622.39,44.06">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="RAMP_J3.0" type="dead_end" x="542.86" y="22.49" incLanes="" intLanes="" shape="542.86,22.49 543.98,19.49"/>
+
+    <connection from="HW_E1.1" to="HW_E1.2" fromLane="0" toLane="1" via=":HW_J1.1_1_0" dir="s" state="M"/>
+    <connection from="HW_E1.1" to="HW_E1.2" fromLane="1" toLane="2" via=":HW_J1.1_1_1" dir="s" state="M"/>
+    <connection from="HW_E1.2" to="HW_E2.1" fromLane="1" toLane="0" via=":HW_J1.2_0_0" dir="s" state="M"/>
+    <connection from="HW_E1.2" to="HW_E2.1" fromLane="2" toLane="1" via=":HW_J1.2_0_1" dir="s" state="M"/>
+    <connection from="HW_E2.1" to="HW_E2.2" fromLane="0" toLane="1" via=":HW_J2.1_1_0" dir="s" state="M"/>
+    <connection from="HW_E2.1" to="HW_E2.2" fromLane="1" toLane="2" via=":HW_J2.1_1_1" dir="s" state="M"/>
+    <connection from="HW_E2.2" to="HW_E3.1" fromLane="1" toLane="0" via=":HW_J2.2_0_0" dir="s" state="M"/>
+    <connection from="HW_E2.2" to="HW_E3.1" fromLane="2" toLane="1" via=":HW_J2.2_0_1" dir="s" state="M"/>
+    <connection from="HW_E3.1" to="HW_E3.2" fromLane="0" toLane="1" via=":HW_J3.1_1_0" dir="s" state="M"/>
+    <connection from="HW_E3.1" to="HW_E3.2" fromLane="1" toLane="2" via=":HW_J3.1_1_1" dir="s" state="M"/>
+    <connection from="HW_E3.2" to="HW_E4.1" fromLane="1" toLane="0" via=":HW_J3.2_0_0" dir="s" state="M"/>
+    <connection from="HW_E3.2" to="HW_E4.1" fromLane="2" toLane="1" via=":HW_J3.2_0_1" dir="s" state="M"/>
+    <connection from="RAMP_E1.1" to="RAMP_E1.2" fromLane="0" toLane="0" via=":RAMP_J1_0_0" tl="TL_0" linkIndex="0" dir="s" state="O"/>
+    <connection from="RAMP_E1.2" to="HW_E1.2" fromLane="0" toLane="0" via=":HW_J1.1_0_0" dir="s" state="M"/>
+    <connection from="RAMP_E2.1" to="RAMP_E2.2" fromLane="0" toLane="0" via=":RAMP_J2_0_0" tl="TL_1" linkIndex="0" dir="s" state="O"/>
+    <connection from="RAMP_E2.2" to="HW_E2.2" fromLane="0" toLane="0" via=":HW_J2.1_0_0" dir="s" state="M"/>
+    <connection from="RAMP_E3.1" to="RAMP_E3.2" fromLane="0" toLane="0" via=":RAMP_J3_0_0" tl="TL_2" linkIndex="0" dir="s" state="O"/>
+    <connection from="RAMP_E3.2" to="HW_E3.2" fromLane="0" toLane="0" via=":HW_J3.1_0_0" dir="s" state="M"/>
+
+    <connection from=":HW_J1.1_0" to="HW_E1.2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":HW_J1.1_1" to="HW_E1.2" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":HW_J1.1_1" to="HW_E1.2" fromLane="1" toLane="2" dir="s" state="M"/>
+    <connection from=":HW_J1.2_0" to="HW_E2.1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":HW_J1.2_0" to="HW_E2.1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":HW_J2.1_0" to="HW_E2.2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":HW_J2.1_1" to="HW_E2.2" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":HW_J2.1_1" to="HW_E2.2" fromLane="1" toLane="2" dir="s" state="M"/>
+    <connection from=":HW_J2.2_0" to="HW_E3.1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":HW_J2.2_0" to="HW_E3.1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":HW_J3.1_0" to="HW_E3.2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":HW_J3.1_1" to="HW_E3.2" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":HW_J3.1_1" to="HW_E3.2" fromLane="1" toLane="2" dir="s" state="M"/>
+    <connection from=":HW_J3.2_0" to="HW_E4.1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":HW_J3.2_0" to="HW_E4.1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":RAMP_J1_0" to="RAMP_E1.2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":RAMP_J2_0" to="RAMP_E2.2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":RAMP_J3_0" to="RAMP_E3.2" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>

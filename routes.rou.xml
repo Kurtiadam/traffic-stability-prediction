@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-28 21:03:53 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="car" length="5.00" minGap="2.00" maxSpeed="130.00" accel="2.0" decel="4.5" sigma="0"/>
+    <!-- Routes -->
+    <route id="from_hw" edges="HW_E1.1 HW_E1.2 HW_E2.1 HW_E2.2 HW_E3.1 HW_E3.2 HW_E4.1"/>
+    <route id="from_ramp1" edges="RAMP_E1.1 RAMP_E1.2 HW_E1.2 HW_E2.1 HW_E2.2 HW_E3.1 HW_E3.2 HW_E4.1"/>
+    <route id="from_ramp2" edges="RAMP_E2.1 RAMP_E2.2 HW_E2.2 HW_E3.1 HW_E3.2 HW_E4.1"/>
+    <route id="from_ramp3" edges="RAMP_E3.1 RAMP_E3.2 HW_E3.2 HW_E4.1"/>
+    <!-- Vehicles -->
+    <flow id="from_hw" type="car" begin="1.00" route="from_hw" end="6000000.00" vehsPerHour="400" departLane="free" departPos="free"/>
+    <!-- Inserted from Traci code
+    <flow id="from_ramp1" type="car" begin="2.00" route="from_ramp1" end="36000.00" vehsPerHour="200"/>
+    <flow id="from_ramp2" type="car" begin="2.00" route="from_ramp2" end="36000.00" vehsPerHour="200"/>
+    <flow id="from_ramp3" type="car" begin="2.00" route="from_ramp3" end="36000.00" vehsPerHour="200"/> -->
+</routes>
